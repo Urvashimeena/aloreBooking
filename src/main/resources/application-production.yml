@@ -1,0 +1,23 @@
+server:
+  port: 8083
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  http.encoding.charset: UTF-8
+  http.encoding.enabled: true
+  http.encoding.force: true
+  application:
+    name: AloreBookingSite
+  datasource:
+    url: jdbc:mysql://localhost/booking?useSSL=false&characterEncoding=UTF-8&useLegacyDatetimeCode=false&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate.ddl-auto: validate
+  properties:
+    hibernate.jdbc.time_zone: UTC
+
+broker:
+  http.auth-token-header-name: auth-token
