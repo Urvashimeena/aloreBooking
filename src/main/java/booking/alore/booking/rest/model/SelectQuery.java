@@ -5,5 +5,5 @@ import lombok.Data;
 @Data
 public class SelectQuery {
     private String query;
-    private String values;
+    private Value[] values;
 }
