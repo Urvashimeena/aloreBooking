@@ -1,0 +1,8 @@
+{"query":"update hotel set hotelName=? where hotelId=?",
+
+	"values":[
+			{"valueType":"STRING","index":1,"value":"Lake City Palace Hotel"},
+			{"valueType":"STRING","index":2,"value":"6"}
+		 ]
+	
+}

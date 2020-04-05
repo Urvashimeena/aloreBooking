@@ -1,0 +1,21 @@
+{
+	"query":"INSERT INTO users (username, email, password) VALUES (?,?,?);",
+	"values":[[
+		 {
+		        "valueType": "STRING",
+		        "index": 1,
+		        "value": "urvashimeena25"
+           	 },
+          	 {
+		        "valueType": "STRING",
+		        "index": 2,
+		        "value": "urvashimeena25@gmail.com"
+           	 },
+		 {
+		        "valueType": "STRING",
+		        "index": 3,
+		        "value": "ushu"
+		 }
+		
+		]]
+}

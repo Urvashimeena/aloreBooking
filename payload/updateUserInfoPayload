@@ -1,0 +1,9 @@
+{"query":"update users set contactnumber=? , password=? where username=? and email=?",
+
+	"values":[{"valueType":"STRING","index":1,"value":"9876454532"},
+			  {"valueType":"STRING","index":2,"value":"abc123"},
+			  {"valueType":"STRING","index":3,"value":"urvashimeena25"},
+			  {"valueType":"STRING","index":4,"value":"urvashimeena25@gmail.com"}
+			 ]
+	
+}

@@ -1,0 +1,16 @@
+{
+	"query":"select * from hotel where city=? and star = ?",
+	"values":[
+				 {
+                "valueType": "STRING",
+                "index": 1,
+                "value": "udaipur"
+            },
+            {
+                "valueType": "STRING",
+                "index": 2,
+                "value": "4"
+            },
+           ]
+		
+}

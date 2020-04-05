@@ -1,0 +1,50 @@
+{
+	"query":"Insert into customerReview(reviewComment,rating,hoteId,userid) values(?,?,?,?)",
+	"values":[[
+	    {
+                "valueType": "STRING",
+                "index": 1,
+                "value": "BAD SERVICE"
+            },
+            {
+                "valueType": "STRING",
+                "index": 2,
+                "value": "4"
+            },
+            {
+                "valueType": "STRING",
+                "index": 3,
+                "value": "5"
+            },
+            {
+                "valueType": "STRING",
+                "index": 4,
+                "value": "1"
+            }
+           ],
+	   [
+				 {
+                "valueType": "STRING",
+                "index": 1,
+                "value": "RESTAURANT service is best"
+            },
+            {
+                "valueType": "STRING",
+                "index": 2,
+                "value": "4"
+            },
+	    {
+                "valueType": "STRING",
+                "index": 3,
+                "value": "5"
+            },
+            {
+                "valueType": "STRING",
+                "index": 4,
+                "value": "1"
+            }
+           ]
+	
+	]
+		
+}

@@ -1,0 +1,6 @@
+{"query":"delete from users where userid=?",
+
+	"values":[{"valueType":"STRING","index":1,"value":"2"}
+		]
+	
+}
