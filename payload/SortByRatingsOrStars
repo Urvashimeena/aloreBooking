@@ -1,0 +1,51 @@
+1) - sort by start
+
+{
+	"query":"select * from hotel ORDER BY star ASC"
+		
+}
+
+2)- Sort By ratings
+
+{
+	"query":"select * from hotel ORDER BY ratings ASC"
+		
+}
+
+3)-  Sort By cost
+
+
+{
+	"query":"select * from hotel as h join hotelType as ht on (h.hotelId=ht.hotelId) Order by cost DESC ;"
+		
+}
+
+4) - Search hotel by facilities
+
+{
+	"query":"select * from hotel where facilities='provided' ;"
+		
+}
+
+5) - search hotel by available date and rooms
+
+{
+	"query":"select * from hotel as h join hotelAvailability as ha on h.hotelId=ha.hotelId where availablerooms>=? and availableDate=?'",
+	"values":[{"valueType":"STRING","index":1,"value":"4"},
+			  {"valueType":"STRING","index":2,"value":"20-04-28"},
+	         ]
+		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

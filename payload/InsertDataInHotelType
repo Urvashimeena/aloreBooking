@@ -1,0 +1,51 @@
+Note:- The cost is of per day
+
+{
+	"query":"INSERT INTO hotelType (roomType, numberOfRooms, cost, hotelId) VALUES (?,?,?,?);",
+	"values":[[
+		 {
+		        "valueType": "STRING",
+		        "index": 1,
+		        "value": "Single"
+            	},
+		{
+		        "valueType": "STRING",
+		        "index": 2,
+		        "value": "70"
+		},
+		{
+		        "valueType": "STRING",
+		        "index": 3,
+		        "value": "1000"
+		},
+		{
+		        "valueType": "STRING",
+		        "index": 4,
+		        "value": "5"
+		}
+		
+		],
+		[
+		 {
+		        "valueType": "STRING",
+		        "index": 1,
+		        "value": "Single"
+            	},
+		{
+		        "valueType": "STRING",
+		        "index": 2,
+		        "value": "70"
+		},
+		{
+		        "valueType": "STRING",
+		        "index": 3,
+		        "value": "1500"
+		},
+		{
+		        "valueType": "STRING",
+		        "index": 4,
+		        "value": "6"
+		}
+		]		
+		]
+}

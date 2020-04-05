@@ -1,0 +1,61 @@
+{
+	"query":"INSERT INTO hotel (city, facilities, rating, star, hotelName) VALUES (?,?,?,?,?);",
+	"values":[[
+		 {
+		        "valueType": "STRING",
+		        "index": 1,
+		        "value": "Bangalore"
+           	 },
+          	 {
+		        "valueType": "STRING",
+		        "index": 2,
+		        "value": "Provided"
+           	 },
+		 {
+		        "valueType": "STRING",
+		        "index": 3,
+		        "value": "9"
+		 },
+		{
+		        "valueType": "STRING",
+		        "index": 4,
+		        "value": "5"
+           	 },
+		 {
+		        "valueType": "STRING",
+		        "index": 5,
+		        "value": "Royal Orchid Center"
+		 }
+		
+		],
+		[
+		 {
+		        "valueType": "STRING",
+		        "index": 1,
+		        "value": "Bangalore"
+           	 },
+          	 {
+		        "valueType": "STRING",
+		        "index": 2,
+		        "value": "Not Provided"
+           	 },
+		 {
+		        "valueType": "STRING",
+		        "index": 3,
+		        "value": "5"
+		 },
+		{
+		        "valueType": "STRING",
+		        "index": 4,
+		        "value": "3"
+           	 },
+		 {
+		        "valueType": "STRING",
+		        "index": 5,
+		        "value": "Vividus Hotel"
+		 }
+		
+		]
+		
+		]
+}
