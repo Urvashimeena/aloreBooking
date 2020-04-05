@@ -1,4 +1,4 @@
-package booking.alore.booking.rest.controller1;
+package booking.alore.booking.rest.controller;
 
 
 import booking.alore.booking.rest.BaseController;
