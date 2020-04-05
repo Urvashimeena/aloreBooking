@@ -3,7 +3,7 @@ package booking.alore.booking.rest.model;
 import lombok.Data;
 
 @Data
-public class SelectQuery {
+public class InsertQuery {
     private String query;
-    private Value[] values;
+    private Value[][] values;
 }

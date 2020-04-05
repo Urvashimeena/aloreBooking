@@ -3,7 +3,8 @@ package booking.alore.booking.rest.model;
 import lombok.Data;
 
 @Data
-public class SelectQuery {
+public class UpdateQuery
+{
     private String query;
     private Value[] values;
 }
