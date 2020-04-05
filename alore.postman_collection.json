@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "e68034df-6df7-43c6-b6b1-17723716d410",
+		"name": "alore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "InsertData",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"query\":\"INSERT INTO users (username, email, password) VALUES (?,?,?);\",\n\t\"values\":[[\n\t\t {\n                \"valueType\": \"STRING\",\n                \"index\": 1,\n                \"value\": \"urvashimeena25\"\n            },\n           {\n                \"valueType\": \"STRING\",\n                \"index\": 2,\n                \"value\": \"urvashimeena25@gmail.com\"\n            },\n            {\n                \"valueType\": \"STRING\",\n                \"index\": 3,\n                \"value\": \"ushu\"\n            }\n\t\t\n\t\t]]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8085/restapi/booking/addUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"restapi",
+						"booking",
+						"addUser"
+					]
+				},
+				"description": "search hotel by filters"
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateData",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8085/restapi/booking/updateUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"restapi",
+						"booking",
+						"updateUser"
+					]
+				},
+				"description": "updateuser information"
+			},
+			"response": []
+		},
+		{
+			"name": "SelectData",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"query\":\"select * from hotel ORDER BY star ASC\"\n\t\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8085/restapi/booking/selectdata",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"restapi",
+						"booking",
+						"selectdata"
+					]
+				},
+				"description": "select hotel based on filters"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteData",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"query\":\"delete from users where userid=?\",\n\n\t\"values\":[{\"valueType\":\"STRING\",\"index\":1,\"value\":\"2\"}\n\t\t\t ]\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8085/restapi/booking/deleteData",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8085",
+					"path": [
+						"restapi",
+						"booking",
+						"deleteData"
+					]
+				},
+				"description": "delete user, review"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
