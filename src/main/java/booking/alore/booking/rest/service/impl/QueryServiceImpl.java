@@ -35,7 +35,7 @@ public class QueryServiceImpl implements QueryService {
     }
 
     @Override
-    public void executeUpdate(UpdateQuery updateQuery, OutputStream outputStream)
+    public void executeUpdate(UpdateQuery updateQuery)
     {
         log.info("executing update query", updateQuery);
         try
